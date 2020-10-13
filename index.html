@@ -1,223 +1,229 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+	<!DOCTYPE HTML>
+	<!--
+		Hyperspace by HTML5 UP
+		html5up.net | @ajlkn
+		Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	-->
+	<html>
+
 	<head>
 		<title>Nick Sercel</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		// emailjs
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-		<script type="text/javascript">
-			(function () {
-				emailjs.init("user_pvMi8BtQCMMmflaypEul1");
-			})();
-		</script>
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
 	<body class="is-preload">
 
 		<!-- Sidebar -->
-			<section id="sidebar">
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a href="#intro">Welcome</a></li>
+						<li><a href="#one">Projects</a></li>
+						<li><a href="#two">Skills</a></li>
+						<li><a href="#three">Contact Me</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Intro -->
+			<section id="intro" class="wrapper style1 fullscreen fade-up">
 				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Projects</a></li>
-							<li><a href="#two">Skills</a></li>
-							<li><a href="#three">Contact Me</a></li>
-						</ul>
-					</nav>
+					<h1>Nick Sercel</h1>
+					<p>Fullstack Web Developer specializing in frontend data structures</p>
+					<p><a class='move-left-5' href='https://www.linkedin.com/in/nick-sercel-4402261a0/'>LinkedIn <a href="#"
+								class="icon brands fa-linkedin-in"></a>
+							<a class='move-left-20' href='https://github.com/Jim-Heftypants'>GitHub <a href="#"
+									class="icon brands fa-github"></a></p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Learn more</a></li>
+					</ul>
 				</div>
 			</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+			<!-- One -->
+			<section id="one" class="wrapper style2 spotlights">
+				<section>
+					<a href="#" class="image"><img src="images/fullstack-img.png" alt=""
+							data-position="center center" /></a>
+					<div class="content">
 						<div class="inner">
-							<h1>Nick Sercel</h1>
-								<p>Fullstack Web Developer specializing in frontend data structures</p>
-								<p><a class='move-left-5' href='https://www.linkedin.com/in/nick-sercel-4402261a0/'>LinkedIn <a href="#" class="icon brands fa-linkedin-in"></a>
-									<a class='move-left-20' href='https://github.com/Jim-Heftypants'>GitHub <a href="#" class="icon brands fa-github"></a></p>
+							<h2>Chess With Friends</h2>
+							<p>A fullstack app created with a rails backend and react/redux JS frontend. Create an account
+								to make personal goals, add friends, and record chess games. You can also play a game
+								against a chess ai.</p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="generic.html" class="button">Try it out!</a></li>
 							</ul>
 						</div>
-					</section>
+					</div>
+				</section>
+				<section>
+					<a href="#" class="image"><img src="images/AcrossWords-img.png" alt="" data-position="top center" /></a>
+					<div class="content">
+						<div class="inner">
+							<h2>Acrosswords</h2>
+							<p>A mernstack app created with a mongoDB backend and a react/redux javascript frontend. It uses
+								express and node JS middleware. Create an account to play an infinite crossword game where
+								the words you guess determine your future clues.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More!</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<a href="#" class="image"><img src="images/Adventures-img.png" alt="" data-position="25% 25%" /></a>
+					<div class="content">
+						<div class="inner">
+							<h2>Adventures</h2>
+							<p>A fully vanilla javascript single page app. The system for character control and movement is
+								devided between a class based script where each game entity is controlled based entirely on
+								interactions with each other and a functional script which adds and resets entities.</p>
+							<p>Control four characters, each with unique abilities and interactions. Play through several
+								levels where you must defeat different sets of enemies.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Play Now!</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
+			<!-- Two -->
+			<section id="two" class="wrapper style3 fade-up">
+				<div class="inner">
+					<h2>Skills</h2>
+					<p>Languages and libraries I am proficient in and have utilized in fully completed projects.</p>
+					<div class="features">
 						<section>
-							<a href="#" class="image"><img src="images/fullstack-img.png" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Chess With Friends</h2>
-									<p>A fullstack app created with a rails backend and react/redux JS frontend. It incorporates React-Redux container and Redux selector patterns, achieving highly scalable and uni-directionalfront-end state management.</p>
-									<p>Create an account to make personal goals, add friends, and record chess games. You can also play a game against a chess ai.</p>
-									<ul class="actions">
-										<li><a target='_blank' href="https://chess-with-friends.herokuapp.com/#/" class="button">Try it out!</a></li>
-									</ul>
-								</div>
-							</div>
+							<h3>Javascript</h3>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/AcrossWords-img.png" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Acrosswords</h2>
-									<p>A mernstack app created with a mongoDB backend and a react/redux javascript frontend using express and node JS middleware. I worked with a team on this project with my focus being on frontend systems and creating an engaging game system featuring items such as a cubic curve for the game's time remaining.</p>
-									<p>Create an account to play an infinite crossword game where the words you guess determine your future clues.</p>
-									<ul class="actions">
-										<li><a target='_blank' href="https://acrosswords.herokuapp.com/#/" class="button">Learn More!</a></li>
-									</ul>
-								</div>
-							</div>
-						</section> 
-						<section>
-							<a href="#" class="image"><img src="images/Adventures-img.png" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Adventures</h2>
-									<p>A fully vanilla javascript single page app. The system for character control and movement is devided between a class based script where each game entity is controlled based entirely on interactions with each other and a functional script which adds and resets entities.</p>
-									<p>Control four characters, each with unique abilities and interactions. Play through several levels where you must defeat different sets of enemies.</p>
-									<ul class="actions">
-										<li><a target='_blank' href="https://jim-heftypants.github.io/Adventures/" class="button">Play Now!</a></li>
-									</ul>
-								</div>
-							</div>
+							<h3>React</h3>
 						</section>
-					</section>
+						<section>
+							<h3>Redux</h3>
+						</section>
+						<section>
+							<h3>Ruby on Rails</h3>
+						</section>
+						<section>
+							<h3>Postgresql</h3>
+						</section>
+						<section>
+							<h3>MongoDB</h3>
+						</section>
+						<section>
+							<h3>NodeJS</h3>
+						</section>
+						<section>
+							<h3>Express</h3>
+						</section>
+						<section>
+							<h3>HTML5</h3>
+						</section>
+						<section>
+							<h3>CSS</h3>
+						</section>
+						<section>
+							<h3>Mongoose</h3>
+						</section>
+						<section>
+							<h3>C++</h3>
+						</section>
+					</div>
+					<!-- <ul class="actions">
+									<li><a href="generic.html" class="button">Learn more</a></li>
+								</ul> -->
+				</div>
+			</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Skills</h2>
-							<p>Languages and libraries I am proficient in and have utilized in fully completed projects.</p>
-							<div class="features">
-								<section>
-									<h3>Javascript</h3>
-								</section>
-								<section>
-									<h3>React</h3>
-								</section>
-								<section>
-									<h3>Redux</h3>
-								</section>
-								<section>
-									<h3>Ruby on Rails</h3>
-								</section>
-								<section>
-									<h3>Postgresql</h3>
-								</section>
-								<section>
-									<h3>MongoDB</h3>
-								</section>
-								<section>
-									<h3>NodeJS</h3>
-								</section>
-								<section>
-									<h3>Express</h3>
-								</section>
-								<section>
-									<h3>HTML5</h3>
-								</section>
-								<section>
-									<h3>CSS</h3>
-								</section>
-								<section>
-									<h3>Mongoose</h3>
-								</section>
-								<section>
-									<h3>C++</h3>
-								</section>
-							</div>
-							<!-- <ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul> -->
-						</div>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Send Me a Message!</h2>
-							<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p> -->
-							<div class="split style1">
-								<section>
-									<form onsubmit="">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li id='submit-email-request'><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Contact Info</h3>
+			<!-- Three -->
+			<section id="three" class="wrapper style1 fade-up">
+				<div class="inner">
+					<h2>Send Me a Message!</h2>
+					<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p> -->
+					<div class="split style1">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="5"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><a href="" class="button submit">Send Message</a></li>
+								</ul>
+							</form>
+						</section>
+						<section>
+							<ul class="contact">
+								<li>
+									<h3>Contact Info</h3>
+								</li>
+								<li>
+									<h3>Email</h3>
+									<a href="#">nickcsercel@gmail.com</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<span>(818) 371-9595</span>
+								</li>
+								<li>
+									<h3>Social</h3>
+									<ul class="icons">
+										<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+										<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a>
 										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">nickcsercel@gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(818) 371-9595</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
-												<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
+										<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+										<li><a href="#" class="icon brands fa-linkedin-in"><span
+													class="label">LinkedIn</span></a></li>
 									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</section>
 
-			</div>
+		</div>
 
 		<!-- Footer -->
-			<!-- <footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer> -->
+		<!-- <footer id="footer" class="wrapper style1-alt">
+					<div class="inner">
+						<ul class="menu">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer> -->
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
