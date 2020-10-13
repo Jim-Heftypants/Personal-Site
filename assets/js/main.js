@@ -39,8 +39,10 @@
 					event.stopPropagation();
 					event.preventDefault();
 
+
+
 				// Submit form.
-					$(this).parents('form').submit();
+					// $(this).parents('form').submit();
 
 			});
 
@@ -188,3 +190,25 @@
 			});
 
 })(jQuery);
+
+window.addEventListener('DOMContentLoaded', () => {
+	document.getElementById('submit-email-request').addEventListener('click', (e) => {
+		console.log('submit button clicked');
+		// console.log(document.getElementById('name').value);
+
+		const templateParams = {
+			name: document.getElementById('name').value,
+			email: document.getElementById('email').value,
+			message: document.getElementById('message').value
+		};
+
+		emailjs.send('service_4oqcclj', 'template_9htz0e4', templateParams)
+			.then(function (response) {
+				console.log('Message Sent!', response.status, response.text);
+				alert('Message Sent!');
+			}, function (error) {
+				console.log('Message Failed to Send', error);
+				alert('Message Failed to Send');
+			});
+	})
+})

@@ -11,6 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		// emailjs
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+		<script type="text/javascript">
+			(function () {
+				emailjs.init("user_pvMi8BtQCMMmflaypEul1");
+			})();
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -51,9 +58,10 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Chess With Friends</h2>
-									<p>A fullstack app created with a rails backend and react/redux JS frontend. Create an account to make personal goals, add friends, and record chess games. You can also play a game against a chess ai.</p>
+									<p>A fullstack app created with a rails backend and react/redux JS frontend. It incorporates React-Redux container and Redux selector patterns, achieving highly scalable and uni-directionalfront-end state management.</p>
+									<p>Create an account to make personal goals, add friends, and record chess games. You can also play a game against a chess ai.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Try it out!</a></li>
+										<li><a target='_blank' href="https://chess-with-friends.herokuapp.com/#/" class="button">Try it out!</a></li>
 									</ul>
 								</div>
 							</div>
@@ -63,9 +71,10 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Acrosswords</h2>
-									<p>A mernstack app created with a mongoDB backend and a react/redux javascript frontend. It uses express and node JS middleware. Create an account to play an infinite crossword game where the words you guess determine your future clues.</p>
+									<p>A mernstack app created with a mongoDB backend and a react/redux javascript frontend using express and node JS middleware. I worked with a team on this project with my focus being on frontend systems and creating an engaging game system featuring items such as a cubic curve for the game's time remaining.</p>
+									<p>Create an account to play an infinite crossword game where the words you guess determine your future clues.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More!</a></li>
+										<li><a target='_blank' href="https://acrosswords.herokuapp.com/#/" class="button">Learn More!</a></li>
 									</ul>
 								</div>
 							</div>
@@ -78,7 +87,7 @@
 									<p>A fully vanilla javascript single page app. The system for character control and movement is devided between a class based script where each game entity is controlled based entirely on interactions with each other and a functional script which adds and resets entities.</p>
 									<p>Control four characters, each with unique abilities and interactions. Play through several levels where you must defeat different sets of enemies.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Play Now!</a></li>
+										<li><a target='_blank' href="https://jim-heftypants.github.io/Adventures/" class="button">Play Now!</a></li>
 									</ul>
 								</div>
 							</div>
@@ -141,7 +150,7 @@
 							<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p> -->
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form onsubmit="">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -157,7 +166,7 @@
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li id='submit-email-request'><a href="" class="button submit">Send Message</a></li>
 										</ul>
 									</form>
 								</section>
