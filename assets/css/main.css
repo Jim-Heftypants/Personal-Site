@@ -3914,6 +3914,10 @@ input, select, textarea {
 		margin-left: 20%;
 	}
 
-	.move-left-5 {
+	.move-left-10 {
 		margin-left: 10%;
+	}
+
+	.move-left-17 {
+		margin-left: 17.75%;
 	}
